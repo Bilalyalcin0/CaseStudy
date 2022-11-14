@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C31959D52922728700B1172E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C31959D42922728700B1172E /* Alamofire */; };
 		C31959D8292272A200B1172E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C31959D7292272A200B1172E /* Kingfisher */; };
+		C31959DB292274D300B1172E /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31959DA292274D300B1172E /* Protocols.swift */; };
 		C395E2F629210FCB004DDA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395E2F529210FCB004DDA65 /* AppDelegate.swift */; };
 		C395E2F829210FCB004DDA65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395E2F729210FCB004DDA65 /* SceneDelegate.swift */; };
 		C395E2FA29210FCB004DDA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395E2F929210FCB004DDA65 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C31959DA292274D300B1172E /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		C395E2F229210FCA004DDA65 /* CaseStudy-BilalYalcin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CaseStudy-BilalYalcin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C395E2F529210FCB004DDA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C395E2F729210FCB004DDA65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C31959D9292274C300B1172E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C31959DA292274D300B1172E /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		C395E2E929210FCA004DDA65 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		C395E2F429210FCA004DDA65 /* CaseStudy-BilalYalcin */ = {
 			isa = PBXGroup;
 			children = (
+				C31959D9292274C300B1172E /* Protocols */,
 				C395E2F529210FCB004DDA65 /* AppDelegate.swift */,
 				C395E2F729210FCB004DDA65 /* SceneDelegate.swift */,
 				C395E2F929210FCB004DDA65 /* ViewController.swift */,
@@ -153,6 +164,7 @@
 				C395E2FA29210FCB004DDA65 /* ViewController.swift in Sources */,
 				C395E2F629210FCB004DDA65 /* AppDelegate.swift in Sources */,
 				C395E2F829210FCB004DDA65 /* SceneDelegate.swift in Sources */,
+				C31959DB292274D300B1172E /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
